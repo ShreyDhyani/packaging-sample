@@ -3,6 +3,9 @@ name: Release Test
 on:
   push:
     branches: [main, alpha, beta, next]
+    paths:
+      - "packages/**"
+      - "!packages/**/package.json"
 
 jobs:
   release:
