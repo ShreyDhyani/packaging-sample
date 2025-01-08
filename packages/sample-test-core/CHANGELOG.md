@@ -1,3 +1,32 @@
+# v0.7.0 (Wed Jan 08 2025)
+
+#### 🚀 Enhancement
+
+- feat: Added npm run clean command ([@ShreyDhyani](https://github.com/ShreyDhyani))
+- feat: ran cleanup script ([@ShreyDhyani](https://github.com/ShreyDhyani))
+- Sample2 [#18](https://github.com/ShreyDhyani/packaging-sample/pull/18) ([@ShreyDhyani](https://github.com/ShreyDhyani))
+- feat: moved unused scripts ([@ShreyDhyani](https://github.com/ShreyDhyani))
+- feat: Added package.json update ([@ShreyDhyani](https://github.com/ShreyDhyani))
+
+#### 🐛 Bug Fix
+
+- ci:\[skip ci\] Commiting build files ([@github-actions[bot]](https://github.com/github-actions[bot]))
+- ci:\[skip ci\] build clean up ([@ShreyDhyani](https://github.com/ShreyDhyani))
+- ci:\[skip ci\] commit for build changes ([@ShreyDhyani](https://github.com/ShreyDhyani))
+
+#### ⚠️ Pushed to `main`
+
+- Merge branch 'main' of github.com:ShreyDhyani/packaging-sample ([@ShreyDhyani](https://github.com/ShreyDhyani))
+- ci: version increment ([@ShreyDhyani](https://github.com/ShreyDhyani))
+- chore: Removed comment ([@ShreyDhyani](https://github.com/ShreyDhyani))
+
+#### Authors: 2
+
+- [@github-actions[bot]](https://github.com/github-actions[bot])
+- [@ShreyDhyani](https://github.com/ShreyDhyani)
+
+---
+
 # @ariakit/core
 
 ## 0.4.14
