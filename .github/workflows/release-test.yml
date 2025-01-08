@@ -32,6 +32,8 @@ jobs:
         run: |
           npm ci
           npm run build
+          git config --global user.email "github-actions[bot]@users.noreply.github.com"
+          git config --global user.name "GitHub Action Bot"
           git add .
           git commit -m "ci:[skip ci] Commiting build files"
           git push
