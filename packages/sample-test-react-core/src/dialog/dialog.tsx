@@ -93,16 +93,6 @@ function getElementFromProp(
   return element;
 }
 
-/**
- * Returns props to create a `Dialog` component.
- * @see https://ariakit.org/components/dialog
- * @example
- * ```jsx
- * const store = useDialogStore();
- * const props = useDialog({ store });
- * <Role {...props}>Dialog</Role>
- * ```
- */
 export const useDialog = createHook<TagName, DialogOptions>(function useDialog({
   store: storeProp,
   open: openProp,
