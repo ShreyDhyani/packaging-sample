@@ -21,9 +21,9 @@ jobs:
         uses: actions/cache@v1
         with:
           path: node_modules
-          key: yarn-deps-${{ hashFiles('package-lock.lock') }}
+          key: npm-deps-${{ hashFiles('package-lock.lock') }}
           restore-keys: |
-            yarn-deps-${{ hashFiles('package-lock.lock') }}
+            npm-deps-${{ hashFiles('package-lock.lock') }}
 
       - name: Create Release
         env:
