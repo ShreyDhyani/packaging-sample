@@ -223,6 +223,10 @@
       "all-contributors",
       "conventional-commits",
       "released"
+    ],
+    "prereleaseBranches": [
+      "alpha",
+      "beta"
     ]
   }
 }
