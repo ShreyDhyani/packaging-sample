@@ -1,6 +1,6 @@
 {
   "name": "@sample-test/react-core",
-  "version": "0.7.0-canary.31a5613.0",
+  "version": "0.7.0",
   "description": "Ariakit React core",
   "sideEffects": false,
   "license": "MIT",
