@@ -1,6 +1,8 @@
 name: Release Test
 
-on: [push]
+on:
+  push:
+    branches: [main, alpha, beta, next]
 
 jobs:
   release:
