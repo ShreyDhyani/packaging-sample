@@ -21,17 +21,6 @@ type HTMLType = HTMLElementTagNameMap[TagName];
 
 const symbol = Symbol("disclosure");
 
-/**
- * Returns props to create a `Disclosure` component.
- * @see https://ariakit.org/components/disclosure
- * @example
- * ```jsx
- * const store = useDisclosureStore();
- * const props = useDisclosure({ store });
- * <Role {...props}>Disclosure</Role>
- * <DisclosureContent store={store}>Content</DisclosureContent>
- * ```
- */
 export const useDisclosure = createHook<TagName, DisclosureOptions>(
   function useDisclosure({ store, toggleOnClick = true, ...props }) {
     const context = useDisclosureProviderContext();
@@ -48,10 +37,6 @@ export const useDisclosure = createHook<TagName, DisclosureOptions>(
     const disclosureElement = store.useState("disclosureElement");
     const open = store.useState("open");
 
-    // Assigns the disclosure element whenever it's undefined or disconnected
-    // from the DOM. If the current element is the disclosure element, it will
-    // get the `aria-expanded` attribute set to `true` when the disclosure
-    // content is open.
     useEffect(() => {
       let isCurrentDisclosure = disclosureElement === ref.current;
       if (!disclosureElement?.isConnected) {
@@ -91,19 +76,6 @@ export const useDisclosure = createHook<TagName, DisclosureOptions>(
   },
 );
 
-/**
- * Renders an element that controls the visibility of a
- * [`DisclosureContent`](https://ariakit.org/reference/disclosure-content)
- * element.
- * @see https://ariakit.org/components/disclosure
- * @example
- * ```jsx {2}
- * <DisclosureProvider>
- *   <Disclosure>Disclosure</Disclosure>
- *   <DisclosureContent>Content</DisclosureContent>
- * </DisclosureProvider>
- * ```
- */
 export const Disclosure = forwardRef(function Disclosure(
   props: DisclosureProps,
 ) {
