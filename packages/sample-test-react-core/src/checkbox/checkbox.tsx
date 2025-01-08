@@ -48,17 +48,6 @@ function getPrimitiveValue<T>(value: T) {
   return value as Exclude<T, readonly any[]>;
 }
 
-/**
- * Returns props to create a `Checkbox` component. If the element is not a
- * native checkbox, the hook will return additional props to make sure it's
- * accessible.
- * @see https://ariakit.org/components/checkbox
- * @example
- * ```jsx
- * const props = useCheckbox({ render: <div /> });
- * <Role {...props}>Accessible checkbox</Role>
- * ```
- */
 export const useCheckbox = createHook<TagName, CheckboxOptions>(
   function useCheckbox({
     store,
