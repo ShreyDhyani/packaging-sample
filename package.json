@@ -226,7 +226,8 @@
     ],
     "prereleaseBranches": [
       "alpha",
-      "beta"
+      "beta",
+      "next"
     ]
   }
 }
