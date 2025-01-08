@@ -1,6 +1,6 @@
 {
   "name": "@sample-test/core",
-  "version": "0.6.2",
+  "version": "0.7.0-canary.31a5613.0",
   "description": "Ariakit core",
   "sideEffects": false,
   "license": "MIT",
@@ -24,7 +24,11 @@
     "build": "node ../../scripts/build/build.js",
     "clean": "node ../../scripts/build/clean.js"
   },
-  "keywords": ["ariakit", "core"],
+  "keywords": [
+    "ariakit",
+    "core"
+  ],
+  "gitHead": "31a5613cec2678bf3107bb6069d6fca9cdf9a6bf",
   "exports": {
     ".": "./src/index.ts",
     "./utils/undo": "./src/utils/undo.ts",
