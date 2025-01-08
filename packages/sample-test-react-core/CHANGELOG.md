@@ -1,3 +1,20 @@
+# v0.8.0 (Wed Jan 08 2025)
+
+#### 🐛 Bug Fix
+
+- ci:\[skip ci\] Commiting build files ([@github-actions[bot]](https://github.com/github-actions[bot]))
+- ci:\[skip ci\] Removing build files ([@github-actions[bot]](https://github.com/github-actions[bot]))
+- Minor example [#19](https://github.com/ShreyDhyani/packaging-sample/pull/19) ([@ShreyDhyani](https://github.com/ShreyDhyani) [@github-actions[bot]](https://github.com/github-actions[bot]))
+- docs: Removed sample ariakit docs ([@ShreyDhyani](https://github.com/ShreyDhyani))
+- docs: Removed comments from checkbox component ([@ShreyDhyani](https://github.com/ShreyDhyani))
+
+#### Authors: 2
+
+- [@github-actions[bot]](https://github.com/github-actions[bot])
+- [@ShreyDhyani](https://github.com/ShreyDhyani)
+
+---
+
 # v0.7.0 (Wed Jan 08 2025)
 
 #### 🚀 Enhancement

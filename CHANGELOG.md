@@ -2,6 +2,30 @@
 
 #### 🚀 Enhancement
 
+- feat: Added prerelease branches for auto tool ([@ShreyDhyani](https://github.com/ShreyDhyani))
+
+#### 🐛 Bug Fix
+
+- `@sample-test/react-core@0.8.0`
+  - Minor example [#19](https://github.com/ShreyDhyani/packaging-sample/pull/19) ([@ShreyDhyani](https://github.com/ShreyDhyani) [@github-actions[bot]](https://github.com/github-actions[bot]))
+
+#### ⚠️ Pushed to `main`
+
+- ci: Modified Paths and branch for action ([@ShreyDhyani](https://github.com/ShreyDhyani))
+- Merge branch 'main' of github.com:ShreyDhyani/packaging-sample ([@ShreyDhyani](https://github.com/ShreyDhyani))
+- ci: modified release-test script ([@ShreyDhyani](https://github.com/ShreyDhyani))
+
+#### Authors: 2
+
+- [@github-actions[bot]](https://github.com/github-actions[bot])
+- [@ShreyDhyani](https://github.com/ShreyDhyani)
+
+---
+
+# (Wed Jan 08 2025)
+
+#### 🚀 Enhancement
+
 - feat: removed yarn.lock file ([@ShreyDhyani](https://github.com/ShreyDhyani))
 - feat: Modified action ([@ShreyDhyani](https://github.com/ShreyDhyani))
 - feat: Added git auth for actions ([@ShreyDhyani](https://github.com/ShreyDhyani))
